@@ -1,0 +1,144 @@
+html{
+	scroll-behavior: smooth;
+}
+a{
+	text-decoration: none;
+	color: #2c2c2c;
+}
+a:hover{
+	text-decoration: none;
+	color: #2c2c2c;
+}
+body{
+	text-align: center;
+}
+.bg-dark{
+	background-color: #AFDDB5!important;
+}
+.nav-link{
+	color: #2c2c2c!important;
+}
+.navbar>div>ul{
+	padding-right: 20px;
+}
+.navbar>div>ul>li{
+	padding-left: 20px;
+	padding-right: 20px;
+}
+.navbar>div>ul>li:hover{
+	font-size: 1.2em;
+}
+nav>a>img{
+	margin-left: 30px;
+	border: solid 1px #2E5B89;
+	width: 80px;
+	height: 80px;
+}
+.navbar{
+	opacity: 0.9;
+}
+.row{
+	margin-top:20px;
+}
+.jumbotron{
+	background-color: transparent;
+	color:#323232;
+	margin-left: 70px;
+	margin-top:65px;
+	text-align: center;
+}
+.jumbotron>.lead{
+	font-size: 2em;
+}
+.jumbotron>.btn{
+	margin-top:40px;
+	margin-left: auto;
+	margin-right: auto;
+	background-color: #2E5B89;
+	border-color: #2E5B89;
+	color: #FFF;
+}
+.btn:hover{
+	background-color:#9DB6C9;
+	border-color:#9DB6C9;
+	font-size: 1.2em;
+	color: #FFF;
+}
+.btn:active{
+	background-color: #2E5B89!important;
+	border-color: #2E5B89!important;
+	font-size: 1.2em;
+	color: #FFF;
+}
+.divider{
+	margin-top: 100px;
+	margin-bottom: 100px;
+}
+.row>.col-lg-12>h1{
+	text-align: center;
+	margin-bottom: 50px;
+}
+.row>.col-lg-12>p{
+	margin: 0 100px;
+	margin-bottom: 50px;
+}
+.icons>li{
+	padding: 10px 20px;
+	float: left;
+}
+.icons>li>a>i{
+	color: #2C5A87;
+	font-size: 2em;
+}
+.icons>li>a>i:hover{
+	font-size: 2.3em;
+}
+.icons{
+	list-style-type: none;
+	padding: 0 auto;
+	padding-top: 100px;
+	padding-left: 30%;
+	padding-bottom: 50px;
+	}
+h2{
+	margin: 0 auto;
+	margin-top:2%;
+	color:#323232;
+}
+.img-thumbnail{
+	height: 150px;
+	width: 150px;
+	border: solid 2px #2F5C8A;
+	border-radius: 50%;
+	margin-bottom: 10px;
+}
+.row{
+	margin:0 auto;
+	margin-top: 5%;
+}
+.row>.th>a>h5,p{
+	font-style: bold;
+	color: #323232;
+}
+.row>.th>a:hover{
+	text-decoration: none;
+	color: #323232;
+}
+.row>.th>a:hover img{
+	transform:scale(1.1);
+}
+.col-md-6,.th{
+	padding: 0 auto;
+	padding-bottom: 30px;
+}
+
+@media(max-width: 768px){
+ 	.row>.col-md-6{
+ 		width:768px;
+ 	}
+ 	.row>.col-md-4{
+ 		width:768px;
+ 	}
+}
+
+

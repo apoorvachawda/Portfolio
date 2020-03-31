@@ -1,0 +1,148 @@
+
+.navbar-light .navbar-nav .nav-link {
+    color: rgba(0,0,0,1);
+}
+
+html{
+	height:100%;
+}
+body{
+	background: url(https://images.unsplash.com/photo-1508780709619-79562169bc64?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=80) no-repeat;
+	background-size: cover;
+	background-position: cover;
+	background-blend-mode: soft-light;
+	font-family: 'Catamaran', sans-serif;
+	font-size: 1.4 em;
+}
+.bg-light {
+    background-color: #ffffff!important;
+    opacity:0.95;
+    /*height: 55px;*/
+}
+.navbar-light .navbar-nav .nav-link {
+    color: rgba(0,0,0,1);
+    font-size: 1.3em;
+}
+.navbar-light .navbar-nav .active>.nav-link, .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .show>.nav-link {
+    color: rgba(0,0,0,1);
+    text-decoration: underline;
+}
+.nav-link {
+    display: block;
+    padding: .5rem 1rem;
+    font-size: 1.3em;
+}
+a {
+    color: #000000;
+    text-decoration: none;
+    background-color: transparent;
+}
+
+a:hover {
+	color: #000000;
+	opacity: 0.7;
+}
+i{
+	color:#DDDDDD;
+}
+.navbar-brand {
+    display: inline-block;
+    padding-top: .3125em;
+    padding-bottom: .3125em;
+    padding-right: .9em;
+    margin-right: 1em;
+    font-size: 2em;
+    line-height: inherit;
+    white-space: nowrap;
+    float:left;
+}
+.navbar-light .navbar-brand:focus, .navbar-light .navbar-brand:hover {
+    color: rgba(0,0,0,1);
+}
+h1{
+	color: #ffffff;
+	font-size:2.23em;
+	font-style: bold;
+	opacity:0.9;
+	background-color: #802A2C;
+	border-radius: 10px;
+}
+p{
+	color: white;
+	font-size:1.7em;
+	font-style: bold;
+	background-color: #802A2C;
+	opacity: 0.9;
+	border-radius: 10px;
+}
+
+.center{
+	text-align:center;
+	padding-top: 10%;
+}
+h2>span{
+	color: white;
+}
+
+#login{
+
+	min-width: 250px;
+	background-color:rgb(255,255,255,0.85);
+	padding: 14px 14px 0;
+	margin:15px ;
+}
+#login .social-buttons{
+	margin: 10px 0;
+}
+.btn-fb{
+	color: #fff;
+	background-color: #3b5998;
+
+}
+.btn-tw{
+	color: #fff;
+	background-color: #59acee;
+	margin-left:10px;
+}
+.btn-fb:hover{
+	color: #fff;
+	background-color: #496ebc;
+}
+.btn-tw:hover{
+	color:#fff;
+}
+.btn-success {
+    color: #fff;
+    background-color: #28a745;
+    border-color: #28a745;
+ 	border-radius: 10px;
+}
+@media(max-width: 768px){
+	h1{
+		background-color: #449d44;
+
+	}
+	p{
+		background-color: #449d44;
+	}
+}
+@media(min-width: 768px){
+	h1{
+	color: #ffffff;
+	font-size:2.23em;
+	font-style: bold;
+	opacity:0.9;
+	background-color: #802A2C;
+	border-radius: 10px;
+}
+p{
+	color: white;
+	font-size:1.7em;
+	font-style: bold;
+	background-color: #802A2C;
+	opacity: 0.9;
+	border-radius: 10px;
+}
+	
+
+}

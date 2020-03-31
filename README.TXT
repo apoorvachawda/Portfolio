@@ -1,0 +1,1 @@
+An attempt at creating a portfolio. Made by using Bootstrap and applying grid system. Click on main.html to view.

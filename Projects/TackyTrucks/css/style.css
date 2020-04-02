@@ -141,7 +141,7 @@ h6 {
 }
 
 #header .top_banner{
-	background:url(header.jpg) no-repeat left top;
+	background:url("../images/header.jpg") no-repeat left top;
 	height:150px;
 	padding:50px 35px 0 560px;
 	border:#a4a5a5 solid 1px;
@@ -215,7 +215,7 @@ h6 {
 /*----start page content----*/
 #page_content{
 	padding:10px;
-	background:url(body.jpg) repeat;
+	background:url("../images/body.jpg") repeat;
 	border:#a4a5a5 solid 1px;
 }
 
